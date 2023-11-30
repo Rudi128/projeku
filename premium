@@ -373,11 +373,11 @@ echo ""
 elif [[ $host == "2" ]]; then
 echo ""
 #install cf
-wget https://raw.githubusercontent.com/Rudi128/dvs/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/SETANTAZVPN/sc/main/cf.sh && chmod +x cf.sh && ./cf.sh
 clear
 else
 print_install "Random Subdomain/Domain is Used"
-wget https://raw.githubusercontent.com/Rudi128/dvs/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/SETANTAZVPN/sc/main/cf.sh && chmod +x cf.sh && ./cf.sh
 clear
     fi
 }
